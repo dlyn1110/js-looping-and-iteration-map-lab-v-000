@@ -10,6 +10,7 @@
     return newDrivers;
   }
 
-function attributesToPhrase() {
-  
+function attributesToPhrase(drivers) {
+  return newDrivers = drivers.map(function (driver) { return '${driver.name} is from ${driver.hometown}'})
+  return newDrivers;
 }
