@@ -10,7 +10,12 @@
     return newDrivers;
   }
 
+// function attributesToPhrase(drivers) {
+//   const newDrivers = drivers.map(function (driver) { return '${driver.name} is from ${driver.hometown}'})
+//   return newDrivers;
+// }
+
 function attributesToPhrase(drivers) {
-  const newDrivers = drivers.map(function (driver) { return '${driver.name} is from ${driver.hometown}'})
-  return newDrivers;
+    const newDrivers = drivers.map(function (driver) {return `${driver.name} is from ${driver.hometown}`})
+    return newDrivers;
 }
